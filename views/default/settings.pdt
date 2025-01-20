@@ -1,0 +1,24 @@
+	<ul>
+		<li>
+			<?php
+            $this->Form->label($this->_('sepa.instructions', true), 'instructions');
+            $this->Form->fieldTextarea('instructions', $this->Html->ifSet($meta['instructions']), ['id'=>'instructions', 'data-markdown-editor' => '']);
+            ?>
+		</li>
+	</ul>
+    <ul>
+		<li>
+			<?php
+            $this->Form->label($this->_('sepa.IBAN', true), 'IBAN');
+            $this->Form->fieldText('IBAN', $this->Html->ifSet($meta['IBAN']), ['id'=>'IBAN']);
+            ?>
+		</li>
+	</ul>
+    <ul>
+		<li>
+			<?php
+            $this->Form->label($this->_('sepa.instructions2', true), 'instructions2');
+            $this->Form->fieldTextarea('instructions2', $this->Html->ifSet($meta['instructions2']), ['id'=>'instructions2', 'data-markdown-editor' => '']);
+            ?>
+		</li>
+	</ul>

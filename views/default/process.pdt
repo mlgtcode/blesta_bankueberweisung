@@ -1,0 +1,9 @@
+<?php
+echo "<hr>";
+echo "<h2>" . Language::_('sepa.banktr', true) . "</h2>";
+echo "<b>" . Language::_('sepa.banktr2', true) . "</b>";
+echo $this->TextParser->encode('markdown', $this->Html->ifSet($meta['instructions']));
+echo "<div id='iban' style='border: 1px solid black; font-family: monospace; padding 3px; font-size: 130%; text-align:center;'>";
+echo "<b>IBAN:</b><br>" . $this->TextParser->encode('markdown', $this->Html->ifSet($meta['IBAN']));
+echo "</div>";
+echo $this->TextParser->encode('markdown', $this->Html->ifSet($meta['instructions2']));

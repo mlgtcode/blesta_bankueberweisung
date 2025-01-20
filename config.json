@@ -1,0 +1,14 @@
+{
+    "version": "1.1.0",
+    "name": "sepa.name",
+    "description": "sepa.description",
+    "authors": [
+        {
+            "name": "MLGT",
+            "url": "https://mlgt.info/en"
+        }
+    ],
+    "currencies": [
+        "EUR"
+    ]
+}
