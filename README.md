@@ -1,4 +1,6 @@
-# Banküberweisung (SEPA) für Blesta
-Non-merchant Gateways für [Blesta](https://blesta.com/).
+# Bank Transfer (SEPA) for Blesta
+Non-merchant gatewas for [Blesta](https://blesta.com/).
 
-Ermöglicht die Anzeige spezieller Anweisungen für die Annahme von Zahlungen per SEPA-Überweisung.
+Allows the display of specific instructions for accepting payments via SEPA wire transfer.
+
+![Screenshot](https://github.com/mlgtcode/blesta_bankueberweisung/blob/main/views/default/images/screenshot1.png)
